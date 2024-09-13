@@ -11,11 +11,11 @@ body{
 }
 .container{
     width: 70%;
-    /* height: 100%; */
     background-color: red;
     margin: auto;
     overflow: hidden;
 }
+
 .banner > img{
     width: 100%;
 }
@@ -120,4 +120,25 @@ textarea{
     border-radius: 5px;
     color:black;
     font-weight: 900px;
+}
+
+/* Media Queries for mobile view */
+@media only screen and (max-width: 699px) {
+    .container{
+        width: 100%;
+    }
+    tr > :nth-child(2){
+        display: none;
+    }
+    .menu{
+        width: 70%;
+        padding: 2px;
+    }
+}
+
+/* Media Queries for Tablet view */
+@media only screen and (min-width: 700px) and (max-width:1024px){
+    .container{
+        width: 90%;
+    }
 }
