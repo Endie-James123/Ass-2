@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.container{
+    width: 70%;
+    /* height: 100%; */
+    background-color: red;
+    margin: auto;
+    overflow: hidden;
+}
+.banner > img{
+    width: 100%;
+}
+.chefdiv{
+    background-color: red;
+    width: 150px; 
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    margin: -100px auto;
+    margin-bottom: -10px;
+}
+.chefdiv > img {
+    width: 100%;
+}
+h3{
+    color: #fff;
+    text-align: center;
+}
+.menu{
+    background: url(/images/heading-bg.png) no-repeat center center/cover;
+    width: 60%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+}
+.tab{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.tab > table{
+    width: 78%;
+    margin: auto;
+    padding-top: 20px;
+    height: 300px;
+    color: white;
+}
+
+tr > :nth-child(1){
+    width: 230px;
+}
+tr > :nth-child(2){
+    text-align: center;
+}
+tr > :nth-child(3){
+    text-align: right;
+}
+.tab > img{
+    width: 100px;
+    position: relative;
+    left: 89%;
+    bottom: 20px;
+}
+.foot{
+    position: relative;
+    background:url(/images/food-plate2.jpg) no-repeat center center/cover;
+    height: 460px;
+
+}
+.footcontent{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: inherit;
+    padding-top: 50px;
+}
+.order_form{
+    width: 80%;
+    margin: auto;
+}
+.order_form > input, textarea, select, #submit{
+    width: 100%;
+    margin: 5px 0;
+    color: white;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid white;
+    padding-left: 7px;
+}
+select{
+    height: 30px;
+}
+select > option{
+    color: black;
+}
+input{
+    height: 28px;
+    padding-left: 10px;
+}
+::placeholder{
+    color: white;
+}
+textarea{
+    height: 100px;
+}
+#submit{
+    background-color: yellow;
+    height: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    color:black;
+    font-weight: 900px;
+}
