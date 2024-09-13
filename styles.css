@@ -36,7 +36,7 @@ h3{
     text-align: center;
 }
 .menu{
-    background: url(/images/heading-bg.png) no-repeat center center/cover;
+    background: url(heading-bg.png) no-repeat center center/cover;
     width: 60%;
     padding: 10px;
     margin: 10px auto;
@@ -75,7 +75,7 @@ tr > :nth-child(3){
 }
 .foot{
     position: relative;
-    background:url(/images/food-plate2.jpg) no-repeat center center/cover;
+    background:url(food-plate2.jpg) no-repeat center center/cover;
     height: 460px;
 
 }
