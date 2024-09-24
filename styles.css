@@ -136,7 +136,12 @@ textarea{
         display: none;
     }
     .menu{
-        padding: 2px;
+        background-size: 300px;
+        width: 80%;
+        padding: 0px;
+        margin: 10px auto;
+        font-size: medium;
+
     }
     .chefdiv{
         width: 130px; 
@@ -145,6 +150,7 @@ textarea{
     .tab > img{
         left: 84%;
         bottom: 20px;
+        width: 100px;
     }
 }
 
