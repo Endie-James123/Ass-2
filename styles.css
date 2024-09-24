@@ -134,17 +134,13 @@ textarea{
         display: none;
     }
     .menu{
-        width: 70%;
         padding: 2px;
     }
     .chefdiv{
-        background-color: red;
         width: 130px; 
         height: 130px;
     }
     .tab > img{
-        width: 150px;
-        position: relative;
         left: 84%;
         bottom: 20px;
     }
