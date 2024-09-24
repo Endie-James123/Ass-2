@@ -112,6 +112,7 @@ input{
 }
 textarea{
     height: 150px;
+    Padding-top: 5px;
 }
 #submit{
     background-color: yellow;
