@@ -128,7 +128,7 @@ textarea{
         width: 100%;
     }
     .banner{
-        height: 250px;
+        height: 300px;
     }
     tr > :nth-child(2){
         display: none;
