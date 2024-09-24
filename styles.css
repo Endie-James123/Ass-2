@@ -112,6 +112,7 @@ input{
 }
 textarea{
     height: 150px;
+    Padding-top: 8px;
 }
 #submit{
     background-color: yellow;
@@ -129,7 +130,7 @@ textarea{
         width: 100%;
     }
     .banner{
-        height: 250px;
+        height: 300px;
     }
     tr > :nth-child(2){
         display: none;
